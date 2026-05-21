@@ -1,0 +1,27 @@
+# Rider / JetBrains
+.idea/
+*.user
+*.sln.docstates
+
+# Visual Studio
+.vs/
+*.suo
+*.userprefs
+
+# Copilot / AI 缓存
+copilot-chat/
+CopilotIndices/
+CodeChunks.db
+SemanticSummary.db
+
+# 编译输出
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.dll
+
+# 系统文件
+.DS_Store
+Thumbs.db
