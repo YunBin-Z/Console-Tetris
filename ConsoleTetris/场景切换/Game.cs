@@ -1,4 +1,4 @@
-namespace C_进阶俄罗斯方块;
+namespace ConsoleTetris;
 
 public enum E_SceneType
 {

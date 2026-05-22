@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_进阶俄罗斯方块;
+namespace ConsoleTetris;
 
- class BeginScene:BeginOrEndBaseScene
+ class EndScene:BeginOrEndBaseScene
 {
-    public BeginScene()
+     public EndScene()
     {
-        strTitle ="俄罗斯方块";
-        strOne ="开始游戏";
+        strTitle = "游戏结束";
+        strOne = "重新开始游戏";
     }
     public override void EnterDoSomething()
     {
